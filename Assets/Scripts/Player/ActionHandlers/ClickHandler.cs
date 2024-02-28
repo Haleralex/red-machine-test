@@ -66,7 +66,6 @@ namespace Player.ActionHandlers
             if (_clickHoldDuration >= clickToDragDuration)
             {
                 DragStartEvent?.Invoke(_pointerDownPosition);
-
                 _isClick = false;
                 _isDrag = true;
             }
